@@ -166,11 +166,3 @@ class SeedStoryInferenceNode:
                 json_object = json.loads(line)
                 data.append(json_object)
         return data
-
-NODE_CLASS_MAPPINGS = {
-    "SeedStoryInferenceNode": SeedStoryInferenceNode
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "SeedStoryInferenceNode": "Seed Story Inference Node"
-}

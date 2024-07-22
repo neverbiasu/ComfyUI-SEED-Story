@@ -71,11 +71,3 @@ class ModelLoaderNode:
             "adapter": adapter,
             "discrete_model": discrete_model
         }
-
-NODE_CLASS_MAPPINGS = {
-    "ModelLoaderNode": ModelLoaderNode
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "ModelLoaderNode": "Model Loader Node"
-}
